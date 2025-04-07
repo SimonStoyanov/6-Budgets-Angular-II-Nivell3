@@ -3,6 +3,6 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
-    { path: 'welcome-component', component: WelcomeComponent },
-    { path: 'home-component', component: HomeComponent }
+    { path: 'welcome', component: WelcomeComponent },
+    { path: 'home', component: HomeComponent }
 ];
