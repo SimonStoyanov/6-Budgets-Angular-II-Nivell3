@@ -1,4 +1,41 @@
-app-home {
-    display: flex;
-    justify-content: start; 
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.card {
+    border-radius: 20px;
+    overflow: hidden; // Ensures content stays within rounded borders
 }
+
+.card-img-top {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); // Fondo oscuro translúcido
+    text-align: center;
+  
+    .card-text {
+      font-weight: bold;
+
+      @media (min-width: 576px) { // sm
+        font-size: 2rem !important;
+      }
+    
+      @media (min-width: 768px) { // md
+        font-size: 2.5rem !important;
+      }
+    
+      @media (min-width: 992px) { // lg
+        font-size: 3rem !important;
+      }
+    
+      @media (min-width: 1200px) { // xl
+        font-size: 3.5rem !important;
+      }    
+    }
+}
+  
