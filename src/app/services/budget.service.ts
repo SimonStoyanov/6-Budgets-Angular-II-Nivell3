@@ -1,12 +1,5 @@
 import { Injectable } from '@angular/core';
 
-interface Budget {
-  title: string,
-  description: string,
-  price: number,
-  select: boolean
-}
-
 @Injectable({
   providedIn: 'root'
 })
